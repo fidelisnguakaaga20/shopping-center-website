@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Nguakaaga Mvendaga">
+        <meta name="descripption" content="Contact Information for The Little Taco Shop">
+        <title>Contact Us - NGU-Top</title>
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="CSS/style.css">
+        <script src="js/main.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header__h1">NGU-Top Shop</h1>
+        <nav class="header__nav">
+            <ul class="header__ul">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="/#menu">Menu</a>
+                </li>
+                <li>
+                    <a href="Hours.html">Hours</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+    <figure>
+            <img src="img/tacos _close.jpg" alt="Little Taco Shop Tacos" title="Tacos ready to eat!" width="500" height="300">
+            <figcaption class="offscreen">
+                Little Taco Shop Tacos
+            </figcaption>
+        </figure>
+    </section>
+
+    <main class="main">
+        <article class="main__article">
+           <h2>Our Address</h2>
+            <address>
+                13 Isty Albara Street, Harmony Estate<br>
+                Dawaki, F.C.T. Abuja, Nigeria.
+                <br><br>
+                Call: <a href="+2347031128081">07031128081</a><br>
+                
+                Whatsapp: <a href="+2347011507142">07011507142</a></li>
+            </address>
+        </article>  
+        <hr>
+        <article class="main__article contact">
+        <h2 class="contact__h2">Our Contact Form</h2>
+
+        <form action="https://pbin.org/get" method="get" class="contact__form">
+            <fieldset class="contact__fieldset">
+                <legend class="offscreen">Send Us A Message</legend>
+                <p class="contact__p">
+                    <label class="contact__label" for="name">Name:</label>
+                    <input class="contact__input" type="text" name="name" id="name" placeholder="your name" required>
+                </p>
+                <p class="contact__p">
+                    <label class="contact__label" for="email">Email:</label>
+                    <input class="contact__input" type="email" name="email" id="email" placeholder="your email" required>
+                </p>
+                <p class="contact__p">
+                    <label class="contact__label" for="Message">Your Message:</label>
+                    <br>
+                    <textarea class="contact__textarea" name="Message" id="Message" cols="30" rows="10" 
+                        placeholder="Type your mesage here (Not more than 50 words)"></textarea>
+                </p>
+            </fieldset>
+             <button class="contact__button" type="submit">Go</button>
+             <button class="contact__button" type="reset">Reset</button>
+        </form>
+        </article>
+        
+    </main>
+    <footer class="footer">
+        <p>
+            <span class="nowrap">copyright &copy;<time id="year"> 2022</time></span>
+            <span class="nowrap">NGU-Top Shop</span>
+        </p>
+    </footer>
+</body>
+
+</html>
